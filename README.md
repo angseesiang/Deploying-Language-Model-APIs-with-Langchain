@@ -31,7 +31,7 @@ playgrounds.
 ### 1) Clone this repository
 
 ``` bash
-git clone https://github.com/angseesiang/deploying-language-model-apis-with-langchain.git
+git clone https://github.com/your-username/deploying-language-model-apis-with-langchain.git
 cd deploying-language-model-apis-with-langchain
 ```
 
@@ -47,6 +47,7 @@ venv\Scripts\activate    # Windows
 
 ``` bash
 pip install -r requirements.txt
+python -m pip install -i https://pypi.org/simple "sse-starlette==1.6.5"
 ```
 
 ### 4) Configure API keys
@@ -89,7 +90,7 @@ The client will: - Invoke `/openai/invoke` with a prompt - Invoke
 See [`requirements.txt`](requirements.txt): - `fastapi`, `starlette`,
 `pydantic`, `typing_extensions` - `langchain`, `langchain-core`,
 `langserve`, `langchain-openai`, `langchain-ollama` (optional) -
-`python-dotenv`, `requests`, `uvicorn`
+`python-dotenv`, `requests`, `uvicorn` - `sse-starlette==1.6.5`
 
 ------------------------------------------------------------------------
 
@@ -106,4 +107,4 @@ See [`requirements.txt`](requirements.txt): - `fastapi`, `starlette`,
 ## 📜 License
 
 This repository is shared for **educational purposes**. Please credit if
-you use it in your work.
+you use it in your own work.
