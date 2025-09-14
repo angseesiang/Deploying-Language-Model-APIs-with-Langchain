@@ -31,7 +31,7 @@ playgrounds.
 ### 1) Clone this repository
 
 ``` bash
-git clone https://github.com/your-username/deploying-language-model-apis-with-langchain.git
+git clone https://github.com/angseesiang/deploying-language-model-apis-with-langchain.git
 cd deploying-language-model-apis-with-langchain
 ```
 
